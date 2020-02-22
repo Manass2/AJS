@@ -1,0 +1,12 @@
+.buttons {
+    display: flex;
+    width: auto;
+    margin-bottom: 20px;
+    
+}
+
+#table {
+    display: flex;
+    flex-flow: column;
+    
+}
