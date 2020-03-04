@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet"  href="style.css">
+        <title>CountrySearch</title>
+    </head>
+    <body>
+        <div class="searchDiv">
+        <input type="text" id="search" class="input" placeholder="Search...">
+        <button type="button" class="btn btn-outline-info" id="buttonSearch">Search</button>
+        </div>
+        <div class="text-center" id="loader">
+            <div class="spinner-border" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+        <div class="table-div">
+            <table class="table" id="table">
+                <thead id="thead">
+                <tr>
+                    <th scope="col">FLAG</th>
+                    <th scope="col" id="name-th">
+                        <button id="nameSort">NAME</button>
+                    </th>
+                    <th scope="col">
+                        <button id="populationSort">POPULATION</button>
+                    </th>
+                    <th scope="col">CAPITAL</th>
+                    <th scope="col">
+                        <button id="areaSort">AREA</button>
+                    </th>
+                    <th scope="col">CURRENCIES</th>
+                    <th scope="col">LANGUAGES</th>
+                </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+          </div>
+        <script src="script.js"></script>
+    </body>
+</html>
